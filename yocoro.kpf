@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="08fd9261-da6b-439a-9640-8f0b125aff81" kpf_version="4" name="yocoro.kpf">
+<preference-set idref="08fd9261-da6b-439a-9640-8f0b125aff81">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

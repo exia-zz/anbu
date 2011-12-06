@@ -1,0 +1,183 @@
+/* Edgar Kelevra*/
+body {
+  background: #DDD;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.header {
+  width:100%;
+  background-color: silver;
+  height:60px;
+  top:0px;
+  left: 0px;
+  position: absolute;
+  margin-bottom: 40px;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+.footer{
+  border-top: solid 1px #777;
+  text-align: center;
+  color: #AAA;
+}
+
+.logo {
+  font-family: 'Chewy', cursive;
+  font-size:40px;
+  float: left;
+  margin-left: 100px;
+}
+
+.logo a, .logo a:visited, .logo a:active {text-decoration:none; color: white;}
+.logo a:hover { color: #0A0000;}
+
+
+
+.menu {
+  float:left;
+}
+
+.menu {
+  margin-left: 20px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a,
+.menu li a:visited {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu li a:hover,
+.menu li a:active{
+  background: #444;
+  color: #FFF;
+  
+}
+
+
+form {
+  margin: 10px;
+}
+
+input {
+  font-size: 1em;
+}
+
+select {
+  font-size: 2em;
+}
+
+
+
+table.form th {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 6px;
+}
+
+.form_error{
+  color: #700;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.form_error_row input {
+  /*
+  border: 1px solid red;
+  
+  border-width: 2px 1px 1px;
+  border-color: #A00 #F44 #F44;
+  
+  background-color: white;
+  */
+}
+
+
+label{
+  display: block;
+}
+
+.error {
+  color: #770000;
+}
+
+.session {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+
+
+.users {
+  line-height: 13px;
+  color: #333333;
+  padding: 12px;
+  height:100px;
+  width:100px;
+  margin-left:5px;
+  margin-bottom: 40px;
+  margin-right:5px;
+  border: 1px solid #CECCCC;
+  background-color: #E3E8E8;
+  float: left;
+  font-family: 'lucida grande', Tahoma;font-size:12px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}
+
+.user-picture {
+  float:left;
+  width:80px;;
+}
+
+.user-bio{
+  float:right;
+  width:60px;
+}
+
+.clear { clear: both;}
+table, small { font-family: 'lucida grande', Tahoma;font-size:12px;}
+
+.movies {
+  line-height: 13px;
+  color: #333333;
+  padding: 12px;
+  width:300px;
+  margin-left:5px;
+  margin-bottom: 40px;
+  margin-right:5px;
+  border: 1px solid #CECCCC;
+  background-color: #E3E8E8;
+  float: left;
+  font-family: 'lucida grande', Tahoma;font-size:14px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float: left;
+  margin-left: 10px;
+}
+
+label {
+  color:#666666;
+}
+
+input,textarea { margin-left: 20px; }
