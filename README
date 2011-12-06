@@ -1,5 +1,0 @@
-The files products.php and _header.php have been updated due to a programming error.
-
-The require_login() function was called in product.php after the inclusion of _header.php. Because _header.php outputs the beginning of the page, the header() call in require_login()'s code that redirects the user causes an error, because you cannot send headers after sending page content.
-
-In some configurations this error would not manifest, as PHP may be set to buffer all of the page contents until the script is fully executed
